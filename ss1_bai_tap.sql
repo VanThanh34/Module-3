@@ -1,17 +1,17 @@
-use module_3;
+use module_3_ss1;
 
-create table class(
+create table classes(
 id int auto_increment,
 name varchar(100) not null,
 primary key (id)
 );
 
 create table teachers(
-id int auto_increment,
+id_teacher int auto_increment,
 name_teacher varchar(100) not null,
 age int not null,
 country varchar(100) not null,
-primary key (id)
+primary key(id_teacher)
 );
-
-insert into teachers (name_teacher, age, country) value ("HaiTT", 27, "Quảng Nam");
+ insert into classes (name) value ("Thành");
+ insert into teachers (name_teacher, age, country) value ("HảiTT", 27, "Quảng Nam");
