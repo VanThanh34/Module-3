@@ -37,4 +37,3 @@ insert into customers (customer_name, customer_age) value ("Thành", 23);
 insert into customers (customer_name, customer_age) value ("Tâm", 21);
 insert into customers (customer_name, customer_age) value ("Bảo", 26);
 
-select * from customers where customer_name like ('t%');

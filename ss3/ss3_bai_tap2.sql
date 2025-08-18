@@ -85,4 +85,5 @@ join order_detail od
 on o.order_id = od.order_id
 join products p
 on od.product_id = p.product_id
-group by o.order_id, o.order_date
+group by o.order_id, o.order_date;
+
