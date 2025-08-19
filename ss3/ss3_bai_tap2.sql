@@ -42,6 +42,7 @@ select * from customers;
 insert into orders (customer_id, order_date, order_total_price) value (1, '2006-3-21', null);
 insert into orders (customer_id, order_date, order_total_price) value (2, '2006-3-23', null);
 insert into orders (customer_id, order_date, order_total_price) value (1, '2006-3-16', null);
+insert into orders (customer_id, order_date, order_total_price) value (3, '2006-3-16', null);
 select * from orders;
 insert into products (product_name, product_price) value ("May Giat", 3);
 insert into products (product_name, product_price) value ("Tu Lanh", 5);
@@ -87,3 +88,4 @@ join products p
 on od.product_id = p.product_id
 group by o.order_id, o.order_date;
 
+select * from orders where not exists (select order_id from order_detail where orders.order_id = order_detail.order_id);

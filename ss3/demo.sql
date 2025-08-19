@@ -204,3 +204,4 @@ from students s
 join points p
 where s.student_id = p.student_id
 order by score desc, student_name asc;
+

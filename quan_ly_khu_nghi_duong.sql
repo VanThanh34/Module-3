@@ -325,3 +325,26 @@ left join hop_dong_chi_tiet hdct
        on hd.hop_dong_id = hdct.hop_dong_id
 group by hd.hop_dong_id, hd.hop_dong_date_start, hd.hop_dong_date_end, hd.hop_dong_tien_dat_coc
 order by hd.hop_dong_id;
+
+
+
+select * from khach_hang_view;
+-- Tạo view(bảng ảo)
+create view khach_hang_view as select khach_hang_name, khach_hang_dob from khach_hang;
+-- Update view
+update khach_hang_view set khach_hang_name = 'Nguyễn Hoàng Quân' where khach_hang_dob = '1985-06-15';
+
+-- Tạo index(chỉ mục) giúp tìm kiếm nhanh 
+create index idx_khach_hang_id on khach_hang(khach_hang_id);
+explain select khach_hang_id from khach_hang where khach_hang_id = 2;
+
+-- Tạo Stored Procedure 
+Delimiter $
+create procedure find_by_name( in name varchar(50))
+begin 
+select * from khach_hang where khach_hang_name like 'N%';
+end $
+Delimiter ;
+
+-- Gọi Stored Procedure
+call find_by_name("Quan");

@@ -10,12 +10,6 @@ movie_date date not null,
 primary key(movie_id)
 );
 
-create table rooms(
-room_id int auto_increment,
-room_name varchar(10) not null,
-room_capacity int not null,
-primary key(room_id)
-);
 
 create table showtimes(
 showtime_id int auto_increment,
@@ -24,8 +18,7 @@ room_id int,
 showtime_start_time datetime not null,
 showtime_price decimal not null,
 primary key(showtime_id),
-foreign key(movie_id) references movies(movie_id),
-foreign key(room_id) references rooms(room_id)
+foreign key(movie_id) references movies(movie_id)
 );
 
 create table customers(
