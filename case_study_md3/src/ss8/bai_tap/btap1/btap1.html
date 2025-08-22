@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="/src/main/webapp/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <style>
+        * {
+            font-family: "Times New Roman", serif;
+        }
+        p {
+            font-size: 20px;
+        }
+        .gallery-container {
+            margin-top: 20px;
+        }
+        .card img {
+            width: 100%;
+            height: 300px; /* Tăng kích thước ảnh */
+            object-fit: cover; /* Không méo ảnh */
+        }
+    </style>
+</head>
+<body class="container">
+
+<h1 class="pt-4">Responsive Image Gallery</h1>
+<h3 class="pt-3">Resize the browser window to see the effect.</h3>
+
+<div class="row g-4 gallery-container">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+            <a href="img1.png" target="_blank">
+                <img src="img1.png" class="card-img-top" alt="image 1">
+            </a>
+            <div class="card-body">
+                <p class="card-text">Add a description of the image here</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+            <a href="img2.png" target="_blank">
+                <img src="img2.png" class="card-img-top" alt="image 2">
+            </a>
+            <div class="card-body">
+                <p class="card-text">Add a description of the image here</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+            <a href="img3.png" target="_blank">
+                <img src="img3.png" class="card-img-top" alt="image 3">
+            </a>
+            <div class="card-body">
+                <p class="card-text">Add a description of the image here</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+            <a href="img4.png" target="_blank">
+                <img src="img4.png" class="card-img-top" alt="image 4">
+            </a>
+            <div class="card-body">
+                <p class="card-text">Add a description of the image here</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p class="fs-5 pt-5">
+    This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).
+</p>
+
+<script src="/src/main/webapp/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
