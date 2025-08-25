@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1db2faf-76cf-4f2a-af16-de5fe1f17d84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../java-web-currency-converter/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java-web-currency-converter/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java-web-currency-converter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java-web-currency-converter/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java-web-currency-converter/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java-web-currency-converter/src/main/java/com/example/javawebcurrencyconverter/ConverterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../server-time/src/main/java/com/example/servertime/ServerTimeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator/src/main/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator/src/main/webapp/dispplay_result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list_customer/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../list_customer/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-dictionary-jsp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-dictionary-jsp/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-dictionary-jsp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-dictionary-jsp/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,29 +38,29 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="31lh6Q2S7EUvuQga8hw0JEyXj4d" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build currency-converter-jsp.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 9.0.108.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build currency-converter-jsp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.108.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.108" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.108" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
@@ -170,6 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1756104393358</updated>
       <workItem from="1756104394415" duration="637000" />
+      <workItem from="1756128818175" duration="91000" />
     </task>
     <servers />
   </component>
