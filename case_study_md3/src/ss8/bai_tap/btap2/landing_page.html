@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surface Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 30px;
+            background: white;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+        }
+
+        /* Left section */
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-left img {
+            height: 24px;
+        }
+
+        .divider {
+            width: 1px;
+            height: 24px;
+            background-color: #666;
+        }
+
+        .brand {
+            font-weight: bold;
+            font-size: 18px;
+            color: #000;
+        }
+
+        /* Navigation menu */
+        .nav {
+            display: flex;
+            gap: 18px;
+            margin-left: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .shop-btn {
+            background: #0078D4;
+            color: white;
+            padding: 7px 14px;
+            border-radius: 3px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+
+        /* Right section */
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 14px;
+        }
+
+        .header-right a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .icon {
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .user-icon {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        /* Hero section */
+        .hero {
+            text-align: center;
+            background: #e8f0fb;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .products img {
+            max-width: 1300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Left Section -->
+    <div class="header-left">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+        <div class="divider"></div>
+        <div class="brand">Surface</div>
+        <nav class="nav">
+            <a href="#">Computers ▼</a>
+            <a href="#">Computers for Business ▼</a>
+            <a href="#">Accessories ▼</a>
+            <a href="#">Shop Now ▼</a>
+            <a href="#">Support</a>
+        </nav>
+        <a class="shop-btn" href="#">SHOP DEALS</a>
+    </div>
+
+    <!-- Right Section -->
+    <div class="header-right">
+        <a href="#">All Microsoft ▼</a>
+        <span class="icon">🔍</span>
+        <span class="icon">🛒</span>
+        <a href="#">Sign in</a>
+        <div class="user-icon">👤</div>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>Meet the new Surface PCs</h1>
+    <p>Incredible speed and battery life come together with next-level AI experiences and signature Surface design.</p>
+    <div class="products">
+        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/family-color-hero-fy25?fmt=png-alpha&scl=1" alt="Surface Tablet">
+    </div>
+</section>
+
+</body>
+</html>
